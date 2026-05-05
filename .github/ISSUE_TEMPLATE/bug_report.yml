@@ -1,0 +1,20 @@
+name: "🐛 Bug Report"
+description: Relate algo que não está funcionando.
+title: "[BUG]: "
+labels: ["bug", "high-priority"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição do Bug
+      placeholder: O que está acontecendo?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Vá em '...'
+        2. Clique em '....'
+        3. Veja o erro.

@@ -1,0 +1,33 @@
+name: "🚀 User Story"
+description: Sugira uma nova funcionalidade para o usuário.
+title: "[STORY]: "
+labels: ["enhancement", "user-story"]
+body:
+  - type: textarea
+    id: as-a
+    attributes:
+      label: Como... (Papel)
+      placeholder: Ex: Como um usuário logado...
+    validations:
+      required: true
+  - type: textarea
+    id: i-want
+    attributes:
+      label: Eu quero... (Ação)
+      placeholder: Ex: Eu quero visualizar meu perfil...
+    validations:
+      required: true
+  - type: textarea
+    id: so-that
+    attributes:
+      label: Para que... (Valor de Negócio)
+      placeholder: Ex: Para que eu possa atualizar meus dados.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Critérios de Aceite
+      placeholder: |
+        - O botão deve estar visível.
+        - O formulário deve validar e-mail.
